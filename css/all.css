@@ -1,0 +1,15 @@
+.body{
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+.link:hover{
+    text-decoration: underline !important;
+}
+.main-body{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.transparent-form{
+    background: transparent;
+    color: #fff;
+}

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/all.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+
+    <title>六大科技小旅程</title>
+  </head>
+  <body style="background-image: url(../img/background_img.jpg);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">六大科技小旅程</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#eventModal" aria-current="page" href="#"
+                >活動辦法</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#recommendModal" href="#">個資保護法</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../main_page.html">返回首頁</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container body">
+      <div class="row justify-content-center">
+        <div class="col-md-8 align-self-center" style="position: relative" >
+          <p class="text-center text-light">※ 點選圖片中的場景，會有意想不到的效果哦</p>
+          <img class="img-fluid" id="cloud-computing-map-img" src="../img/cloud_computing/cloud_computing.gif" usemap="#cloud-computing-map" alt="" />
+          <map name="cloud-computing-map" id="cloud-computing-map">
+            <span class="loud-link-click" data-sound="decision8" data-bs-toggle="modal" data-bs-target="#educationModal">
+              <area  alt="" title="雲計算的線上教學應用..." href="#" shape="poly" coords="769,374,771,288,848,244,903,275,918,272,926,293,964,317,967,392,956,398,935,387,928,397,909,405,934,422,890,449,854,438,838,448,837,467,832,484,809,471,812,441,796,431,788,413,795,392" style="outline:none;" target="_self"     />
+            </span>
+            <span class="loud-link-click" data-sound="decision2" data-bs-toggle="modal" data-bs-target="#entertainmentModal">
+              <area  alt="" title="雲計算與生活娛樂" href="#" shape="poly" coords="546,426,647,493,735,444,734,362,727,359,641,405,639,417,586,406,588,387,603,373,605,338,585,301,563,300,540,322,540,366,552,389,554,410" style="outline:none;" target="_self"     />
+            </span>
+            <span class="loud-link-click" data-sound="decision3" data-bs-toggle="modal" data-bs-target="#taxiModal">
+              <area  alt="" title="雲計算與交通服務" href="#" shape="poly" coords="599,548,600,511,528,465,487,457,432,484,396,541,357,562,356,600,431,642,451,632,471,640,494,630,504,611,509,598,533,585,552,591,572,584,586,571,588,556" style="outline:none;" target="_self"     />
+            </span>
+            <span class="loud-link-click" data-sound="decision4" data-bs-toggle="modal" data-bs-target="#travelModal">
+              <area  alt="" title="雲計算與旅遊休閒" href="#" shape="poly" coords="120,457,183,494,244,461,247,487,266,499,275,521,297,517,317,513,337,500,329,474,315,460,314,440,298,428,308,420,302,281,243,250,120,318" style="outline:none;" target="_self"     />
+            </span>
+            <span class="loud-link-click" data-sound="decision5" data-bs-toggle="modal" data-bs-target="#shoppingModal">
+              <area  alt="" title="雲計算與線上購物..." href="#" shape="poly" coords="307,363,309,342,333,329,335,317,317,305,330,275,309,248,316,207,328,178,359,177,385,204,387,218,420,200,496,231,498,309,477,328,494,339,490,355,399,410,380,411" style="outline:none;" target="_self"     />
+            </span>
+          </map>
+
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8 text-light">
+          <h3>雲計算 ( Cloud computing )</h3>
+          <p>雲計算是一種基於網際網路的運算方式，通過這種方式，共享的軟硬體資源和資訊可以按需求提供給電腦各種終端和其他裝置，使用服務商提供的電腦基建作運算和資源。雲計算依賴資源的共享以達成規模經濟，類似基礎設施（如電力網）。服務提供者整合大量的資源供多個使用者使用，使用者可以輕易的請求（租借）更多資源，並隨時調整使用量，將不需要的資源釋放回整個架構，因此使用者不需要因爲短暫尖峰的需求就購買大量的資源，僅需提升租借量，需求降低時便退租。服務提供者得以將目前無人租用的資源重新租給其他使用者，甚至依照整體的需求量調整租金。</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/Tg3Ehzz-4qc" title="計算帶我上雲端～雲端運算是在算什麼東東？｜｜《Cheap教你金融科技力》 EP 2." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p class="text-white">※ 本轉載之影片內容均用於非商業用途。純粹為教育、非營利等合法目的，而影片之之著作權、所有權與智慧財產權，包括內容、文字、圖片、聲音、影像等均為台灣金融研訓院所有。</p>
+        </div>
+        </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-8 border border-light rounded text-light">
+          <form>
+            <h4 class="mt-5 mb-3 text-center">你知道生活周邊有許多雲計算嗎?</h4>
+            <div class="mx-5 mb-5 border border-light rounded p-3">
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio"  name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label "  for="flexRadioDefault1">
+                  我會使用網路購物上面的比價網站，去挑選最划算的商品
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio"  name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label "  for="flexRadioDefault2">
+                  最多使用的的應該就是 Google 的雲端硬碟了吧?
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio"  name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label "  for="flexRadioDefault3">
+                  線上教育課程超棒的，我可以在上面獲得很多新的知識
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio"  name="flexRadioDefault" id="flexRadioDefault4">
+                <label class="form-check-label "  for="flexRadioDefault4">
+                  聽音樂什麼的，系統都會幫我找到我期待的歌單，真不錯
+                </label>              
+              </div>
+            </div>
+            <h4 class="my-3 text-center">跟我們分享一些您對雲計算的看法吧!</h4>
+            <div class="mx-5 mb-5">
+              <div class="d-grid gap-2">
+                <a class="btn btn-outline-light loud-link-click" target="_blank" href="https://script.google.com/macros/s/AKfycbxv60Vb2TbPPzEVqSuQAyCnSUS6v-0h9pjeEQIROV6ICDuFSjiDsg6bQVCYxmEPYYTVyA/exec">進入心得上傳系統</a>
+              </div>
+            </div>
+            <h4 class="my-3 text-center">你有心中推薦雲計算的相關讀物嗎?</h4>
+            <div class="mx-5 mb-5">
+              <div class="form-control my-3" style="background: transparent; color: #fff;">
+                  <label class="mt-3" for="readingtype">選擇讀物類別</label>
+                  <select class="form-select mb-3" id="readingtype" aria-label="Default select example" style="background: transparent; color: #fff;">
+                    <option class="text-dark" selected>請選擇讀物類別</option>
+                    <option class="text-dark" value="書籍">紙本型式：書籍</option>
+                    <option class="text-dark" value="教師自製講義">紙本型式：教師自製講義</option>
+                    <option class="text-dark" value="網站">電子型式：網站</option>
+                    <option class="text-dark" value="電子書">電子型式：電子書</option>
+                    <option class="text-dark" value="視頻">多媒體型式：視頻（ youtube 、 tiktok 、 DVD 等等）
+                    </option>
+                    <option class="text-dark" value="線上期刊">電子型式：線上期刊</option>
+                    <option class="text-dark" value="紙本期刊">紙本型式：紙本期刊</option>
+                    <option class="text-dark" value="網路新聞">電子型式：網路新聞</option>
+                    <option class="text-dark" value="電子資料庫">電子資料庫</option>
+                    <option class="text-dark" value="雜誌">紙本型式：雜誌</option>
+                    <option class="text-dark" value="社交媒體">電子型式：社交媒體（ Facebook 、 Instergram 等）</option>
+                    <option class="text-dark" value="線上雜誌">電子型式：線上雜誌</option>
+                    <option class="text-dark" value="報紙">紙本型式：報紙</option>
+                    <option class="text-dark" value="有聲書">多媒體型式：有聲書（ 光碟、 mp3 等）</option>
+                  </select>
+                  <h6>推薦讀物名稱</h6>
+                  <div class="form-floating">
+                    <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea" style="height: 20 px ;background: transparent; color: #fff"></textarea>
+                    <label for="floatingTextarea">讀物名稱是...</label>
+                  </div>
+              </div>
+            </div>
+            <div class="mx-5 mb-5">
+              <div class="d-grid gap-2">
+                <button class="btn btn-outline-light loud-link-click" data-sound="decision11" type="button" data-bs-toggle="modal" data-bs-target="#goodJobModal">確認送出推薦</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+          <div class="row row-cols-sm-6 row-cols-3 text-center">
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./ai.html">人工智慧</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./big_data.html">大數據</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./block_chain.html">區塊鏈</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="#">雲計算</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./edge_computing.html">邊緣計算</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./five_g.html">5G應用</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="fixed-bottom">
+      <div class="container-fluid bg-dark py-1 text-center text-light">
+        <p class="mt-1">Copyright © 2022 財團法人書香文化教育基金會 - All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- 活動辦法 modal -->
+    <div
+      class="modal fade"
+      id="eventModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">本活動規範事項</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body mx-5">
+            <h4>一、 活動說明：</h4>
+            <ul style="list-style-type:none">
+              <li>
+                <h6>(一) 活動期間：依本會所定時間。</h6>
+              </li>
+              <li>
+                <h6>(二) 活動對象：全國大專院校(含)以上之公民。</h6>
+              </li>
+              <li>
+                <h6 >(三) 參加辦法：</h6>
+                <ol>
+                  <li >活動期間內，參加者連結活動網址完成本會調查，並登錄正確個人資料(真實姓名、手機號碼及電子郵件)，即可參加票選活動。每人限參加登錄1次，並獲得1次票選機會(僅限1次得獎)。</li>
+                  <li>本會將另以填寫人所留姓名及電子郵件資料寄發調查禮券及票選獎品，參加者請留下真實姓名及電子郵件信箱(僅供寄送禮券及票選獎品之用)。中獎人所提供個人資料，若有錯誤或遺漏，致使無法證明中獎身分或無法寄送禮券及票選獎品電子郵件者，一律以放棄得獎論。</li>
+                  <li>獎項詳細內容與規格皆以實物為準，得獎人不得要求更換獎項或轉讓。主辦單位保有隨時修改及終止本活動之權利，如有任何變更內容或詳細注意事項將公布於本網頁，恕不另行通知。</li>
+                </ol>
+              </li>
+            </ul>
+            <br>
+            <h4>二、 票選事項：</h4>
+            <ul style="list-style-type:none">
+              <li>
+                <p>本會將於本會網站公告中獎訊息，將依中獎人姓名及電子郵件寄送。</p>
+              </li>
+            </ul>
+            <h4>三、 其他事項：</h4>
+            <ol style="list-style-type:none">
+              <li>
+                <h6>(一)獎項寄送以中獎人登錄之姓名及電子郵件為準，不另行確認，俾加速寄送行政流程。</h6>
+              </li>
+              <li>
+                <h6>(二)本活動如遇其他不可抗力事由，得順延之；本會有權取消、終止、更改或暫停本活動，並得解釋本活動相關事項；針對上開事宜，並將悉公布於本會網站，且依相關規定辦理。</h6>
+              </li>
+              <li>
+                <h6>(三)本會擁有保留獎項、活動時程的修改權利，以及中獎資格審核之最終權利。</h6>
+              </li>
+              <li>
+                <h6>(四)本活動各項規則已詳細載明於活動辦法中，參加者於參加本活動時，即同意接受所有活動規則之規範。如有違反本活動規則，本會得以取消參加資格並依法處理。</h6>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              我了解了
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 推薦說明 modal -->
+    <div
+      class="modal fade"
+      id="recommendModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">個人資料保護法相關聲明</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body mx-5">
+            <h5>一、蒐集個人資料單位：「財團法人書香教育文化基金會」(以下稱本會)。</h5>
+            <h5>二、蒐集目的：辦理有關六大新興技術調查之參考，及後續票選活動等相
+              關程序之聯繫使用。
+            </h5>
+            <h5>三、個人資料類別：包含姓名、聯絡電話及電子郵件等個人資料中之識別
+              類訊息。</h5>
+            <h5>四、個人資料利用之時間、地區、對象及方式：
+            </h5>
+            <ul style="list-style-type:none">
+              <li>（一）時間：調查及相關票選活動結束且獎項寄送等後續程序執行完畢。</li>
+              <li>（二）地區：僅供本會內部使用。</li>
+              <li>（三）對象：執行本活動之受調人員。</li>
+              <li>（四）方式：以自動化機器或其他非自動化之利用方式。</li>
+            </ul>
+            <h5>五、本會因辦理本活動而蒐集、處理或利用參與本活動者的個人資料(姓
+              名、電話及電子郵件等)時，皆以尊重參與本活動者的權益為基礎，且
+              遵守中華民國「個人資料保護法」規定。以上個人資料，僅供本會及
+              本會委託執行本活動時之必要相關人員使用。
+            </h5>
+            <h5>六、參與本活動者的個人資料僅會以電子檔或紙本形式於我國境內供本會
+              作為辦理本活動之處理或利用，本會不會將該資料提供其他第三人使
+              用。參加本活動並留下個人資料時，即視同瞭解上述相關內容，並同
+              意本會蒐集、處理及利用所提供的個人資料，作為票選、通知得獎者
+              以及獎品寄送之憑據。
+            </h5>
+            <h5>七、依據個資法第三條規定，本活動參與者瞭解，就其所提供之個人資料
+              得行使下列權利：
+            </h5>
+            <ul style="list-style-type:none">
+              <li>（一）得向本公司查詢或請求閱覽、請求製給複製本，惟本公司依法得酌收必要成本費用。
+              </li>
+              <li>（二）得向本公司請求補充或更正，惟依法本活動參與者應為適當之釋明。
+              </li>
+              <li>（三）得向本公司請求停止蒐集、處理或利用以及請求刪除，惟依法本
+                公司因執行職務或保存證據所必須者，得不依本活動參與者請
+                求為之。
+              </li>
+            </ul>
+            <h5>八、不提供個資所致之影響：參加者應確保所有填寫或提出的資料並非冒
+              用或盜用第三人之個資，如有不實或不正確之情事或第三方提出任何
+              法律或侵權訴訟，應由參加者本人全權負責；同時本會有權利取消該
+              參加者資格並將相關資料自本活動中移除。
+            </h5>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              我了解了
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 互動 modal -->
+    <!-- educationModal -->
+    <div class="modal fade" id="educationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">更精進的線上學習</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/cloud_computing/for_modal/education.png" alt="">
+            </div>
+            <hr>
+            <p>
+              面對越趨競爭的環境，自我進修已成為顯學，加上網路的幫助，線上教學平台如雨後春筍般湧出，讓我們不出門也能學天下事。身為一名好學生，也該知道這些知識存儲，以及同步註解的強大功能，也是雲端的功勞。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- entertainmentModal -->
+    <div class="modal fade" id="entertainmentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">更享受的生活娛樂</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/cloud_computing/for_modal/entertainment.png" alt="">
+            </div>
+            <hr>
+            <p>
+              身為現代人，3C 裝置裡肯定有 Spotify、Netflix 等串流娛樂平台，我們愛用的原因，可不單純是有較完整的資料庫，而是其強大的推薦系統，讓我們不需花時間尋找歌曲，而是點選系統推薦的歌單，便可以輕輕鬆鬆找到合適的曲目。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- taxiModal -->
+    <div class="modal fade" id="taxiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">更便利的交通服務</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/cloud_computing/for_modal/taxi.png" alt="">
+            </div>
+            <hr>
+            <p>
+              便利的叫車平台、習以為常的悠遊卡，其實背後也有各自的雲端平台撐腰。長年累積的數據，透過平台延展的功能，將協助未來分析高峰時間點與地點，合理分派車輛並避免擁擠地段，讓我們減少塞車的困擾，也更能準時到達目的地。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- travelModal -->
+    <div class="modal fade" id="travelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">更方便的旅遊體驗</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/cloud_computing/for_modal/travel.png" alt="">
+            </div>
+            <hr>
+            <p>
+              可知道旅行必備的民宿網站 Airbnb 也是雲端的愛用者嗎？還記得好幾年前，看個跨國網頁還要等待進度欄的日子嗎，透過雲端服務，跨國網站可以快速連線，讓你從 Airbnb 尋找歐洲度假民宿不再耗時許久，拖累度假的好心情。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- shoppingModal -->
+    <div class="modal fade" id="shoppingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">更全面的購物體驗</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/cloud_computing/for_modal/shopping.png" alt="">
+            </div>
+            <hr>
+            <p>
+              在網購市場蓬勃發展下，電商產業可謂蒸蒸日上。不管是網站平台存儲、推薦系統或搜尋引擎，早就已經與雲端服務結合一體，給予全面性的服務，讓業者能更專注於商品或行銷差異上，以創造更多獨特的服務。作為消費者的我們，也因雲端便利受益，進而獲得多樣化的商品。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- goodJobModal -->
+    <div class="modal fade" id="goodJobModal" tabindex="-1" aria-labelledby="goodJobModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="goodJobModalLabel">恭喜您完成雲計算的探索</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/thanks/Good_Job.png" alt="">
+            </div>
+            <div class="col text-center">
+              <h4>恭喜您完成雲計算領域</h4>
+              <p>
+                已經完成第 4 / 6 區 <br>
+                您可以選擇繼續完成其他 <br>
+                或前往填寫詳細資料
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+              <a href="../main_page.html" class="col btn btn-outline-light">前往下一個科技領域</a>
+              <a href="../personal_infomation.html" class="col btn btn-light">前往填寫詳細資料</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/jquery.rwdImageMaps.min.js"></script>
+    <script src="../js/loudlinks.min.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+  </body>
+</html>

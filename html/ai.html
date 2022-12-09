@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/all.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+
+    <title>六大科技小旅程</title>
+  </head>
+  <body style="background-image: url(../img/background_img.jpg);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">六大科技小旅程</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#eventModal" aria-current="page" href="#"
+                >活動辦法</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#recommendModal" href="#">個資保護法</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../main_page.html">返回首頁</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container body">
+      <div class="row justify-content-center">
+        <div class="col-md-8 align-self-center" style="position: relative" >
+          <p class="text-center text-light">※ 點選圖片中的場景，會有意想不到的效果哦</p>
+          <img 
+          class="img-fluid"
+          id="aimap-img"
+          src="../img/ai/ai.gif"
+          usemap="#ai-map"
+          alt="" />
+          <map name="ai-map" id="ai-map">
+          <span class="loud-link-click" data-sound="decision8" data-bs-toggle="modal" data-bs-target="#sportModal">
+            <area  
+            alt="" 
+            title="AI 運用在體育賽事上..." 
+            href="#" 
+            shape="poly" 
+            coords="859,427,869,460,846,464,829,433,831,416,818,409,803,423,786,410,785,398,802,398,813,388,818,366,803,330,829,314,841,291,864,280,888,287,898,314,900,337,907,347,886,364,908,383,907,413,892,427" 
+            style="outline:none;" 
+            target="_self" />
+          </span>
+          <span class="loud-link-click" data-sound="decision2" data-bs-toggle="modal" data-bs-target="#medicalModal">
+            <area  
+            alt="" 
+            title="AI 對醫療的幫助是..." 
+            href="#" 
+            shape="poly" 
+            coords="700,339,687,348,724,378,749,367,739,339,772,318,762,295,771,275,759,263,754,232,736,211,710,213,693,225,686,251,683,272,665,284,644,279,639,294,658,307,683,302,696,316" 
+            style="outline:none;" 
+            target="_self" />
+          </span>
+          <span class="loud-link-click" data-sound="decision3" data-bs-toggle="modal" data-bs-target="#trafficModal">
+            <area  
+            alt="" 
+            title="AI 讓車子變聰明了..." 
+            href="#" 
+            shape="poly" 
+            coords="534,553,535,513,574,488,612,433,660,406,701,414,780,457,783,497,769,504,758,530,745,542,725,546,711,537,686,549,679,569,669,582,654,590,639,591,632,583,609,595" 
+            style="outline:none;" 
+            target="_self" />
+          </span>
+          <span class="loud-link-click" data-sound="decision4" data-bs-toggle="modal" data-bs-target="#shoppingModal">
+            <area  
+            alt="" 
+            title="AI 對零售服務業的幫助..." 
+            href="#" 
+            shape="poly" 
+            coords="399,481,459,515,470,540,461,563,445,565,437,559,425,565,425,587,412,587,392,575,394,560,381,550,377,567,352,568,345,553,349,529,341,525,318,544,302,531,310,511,308,498,291,481,293,456,294,420,314,404,336,403,348,423,352,455,368,450,395,445" 
+            style="outline:none;" 
+            target="_self" />
+          </span>
+          <span class="loud-link-click" data-sound="decision5" data-bs-toggle="modal" data-bs-target="#assistantModal">
+            <area  
+            alt="" 
+            title="AI 在日常生活中的角色..." 
+            href="#" 
+            shape="poly" 
+            coords="192,394,145,421,117,408,83,384,77,374,89,361,109,354,108,345,121,334,116,319,111,300,112,255,118,244,154,230,177,236,193,268,191,309,208,309,221,322,221,343,210,356,224,368" 
+            style="outline:none;" 
+            target="_self" />
+          </span>
+          </map>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8 text-light">
+          <h3>人工智慧 ( Artificial Intelligence )</h3>
+          <p>人工智慧可以定義為模仿人類與人類思維相關的認知功能的機器或計算機，如學習和解決問題。人工智慧是計算機科學的一個分支，它感知其環境並採取行動，最大限度地提高其成功機會。此外，人工智慧能夠從過去的經驗中學習，做出合理的決策，並快速回應。因此，人工智慧研究人員的科學目標是透過構建具有象徵意義的推理或推理的計算機程式來理解智慧。</p>
+        </div>
+      </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-8">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/A_gvFi-8i3Q" title="AI 究竟是敵是友？！神秘的人工智慧大解密｜｜《Cheap教你金融科技力》 EP 4." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="text-white">※ 本轉載之影片內容均用於非商業用途。純粹為教育、非營利等合法目的，而影片之之著作權、所有權與智慧財產權，包括內容、文字、圖片、聲音、影像等均為台灣金融研訓院所有。</p>
+          </div>
+          </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-8 border border-light rounded text-light">
+          <form>
+            <h4 class="mt-5 mb-3 text-center">你覺得 AI 在未來能有什麼樣的發展呢 ?</h4>
+            <div class="mx-5 mb-5 border border-light rounded p-3">
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio" data-sound="click_bubble" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label " data-sound="click_bubble" for="flexRadioDefault1">
+                  或許會有點改變 ?
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio" data-sound="click_bubble" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label " data-sound="click_bubble" for="flexRadioDefault2">
+                  不知道耶，感覺機器人會自己思考有點可怕 >< |||
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio" data-sound="click_bubble" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label " data-sound="click_bubble" for="flexRadioDefault3">
+                  看起來會有很多產業會因為人工智慧的影響
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio" data-sound="click_bubble" name="flexRadioDefault" id="flexRadioDefault4">
+                <label class="form-check-label " data-sound="click_bubble" for="flexRadioDefault4">
+                  希望可以因為這樣的科技帶來更便利的生活
+                </label>              
+              </div>
+            </div>
+            <h4 class="my-3 text-center">你期待 AI 之後能應用在什麼樣的地方呢?</h4>
+            <div class="mx-5 mb-5">
+              <div class="d-grid gap-2">
+                <a class="btn btn-outline-light loud-link-click" target="_blank" href="https://script.google.com/macros/s/AKfycbxv60Vb2TbPPzEVqSuQAyCnSUS6v-0h9pjeEQIROV6ICDuFSjiDsg6bQVCYxmEPYYTVyA/exec">進入心得上傳系統</a>
+              </div>
+            </div>
+            <h4 class="my-3 text-center">你有心中推薦 AI 人工智慧的相關讀物嗎?</h4>
+            <div class="mx-5 mb-5">
+              <div class="form-control my-3" style="background: transparent; color: #fff;">
+                  <label class="mt-3" for="readingtype">選擇讀物類別</label>
+                  <select class="form-select mb-3" id="readingtype" aria-label="Default select example" style="background: transparent; color: #fff;">
+                    <option class="text-dark" selected>請選擇讀物類別</option>
+                    <option class="text-dark" value="書籍">紙本型式：書籍</option>
+                    <option class="text-dark" value="教師自製講義">紙本型式：教師自製講義</option>
+                    <option class="text-dark" value="網站">電子型式：網站</option>
+                    <option class="text-dark" value="電子書">電子型式：電子書</option>
+                    <option class="text-dark" value="視頻">多媒體型式：視頻（ youtube 、 tiktok 、 DVD 等等）
+                    </option>
+                    <option class="text-dark" value="線上期刊">電子型式：線上期刊</option>
+                    <option class="text-dark" value="紙本期刊">紙本型式：紙本期刊</option>
+                    <option class="text-dark" value="網路新聞">電子型式：網路新聞</option>
+                    <option class="text-dark" value="電子資料庫">電子資料庫</option>
+                    <option class="text-dark" value="雜誌">紙本型式：雜誌</option>
+                    <option class="text-dark" value="社交媒體">電子型式：社交媒體（ Facebook 、 Instergram 等）</option>
+                    <option class="text-dark" value="線上雜誌">電子型式：線上雜誌</option>
+                    <option class="text-dark" value="報紙">紙本型式：報紙</option>
+                    <option class="text-dark" value="有聲書">多媒體型式：有聲書（ 光碟、 mp3 等）</option>
+                  </select>
+                  <h6>推薦讀物名稱</h6>
+                  <div class="form-floating">
+                    <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea" style="height: 20 px ;background: transparent; color: #fff"></textarea>
+                    <label for="floatingTextarea">讀物名稱是...</label>
+                  </div>
+              </div>
+            </div>
+            <div class="mx-5 mb-5">
+              <div class="d-grid gap-2">
+                <button class="btn btn-outline-light loud-link-click"  data-sound="decision11" type="button" data-bs-toggle="modal" data-bs-target="#goodJobModal">確認送出推薦</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+          <div class="row row-cols-sm-6 row-cols-3 text-center">
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="#">人工智慧</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./big_data.html">大數據</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./block_chain.html">區塊鏈</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./cloud_computing.html">雲計算</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./edge_computing.html">邊緣計算</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./five_g.html">5G應用</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="fixed-bottom">
+      <div class="container-fluid bg-dark py-1 text-center text-light">
+        <p class="mt-1">Copyright © 2022 財團法人書香文化教育基金會 - All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- 活動辦法 modal -->
+    <div
+      class="modal fade"
+      id="eventModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">本活動規範事項</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body mx-5">
+            <h4>一、 活動說明：</h4>
+            <ul style="list-style-type:none">
+              <li>
+                <h6>(一) 活動期間：依本會所定時間。</h6>
+              </li>
+              <li>
+                <h6>(二) 活動對象：全國大專院校(含)以上之公民。</h6>
+              </li>
+              <li>
+                <h6 >(三) 參加辦法：</h6>
+                <ol>
+                  <li >活動期間內，參加者連結活動網址完成本會調查，並登錄正確個人資料(真實姓名、手機號碼及電子郵件)，即可參加票選活動。每人限參加登錄1次，並獲得1次票選機會(僅限1次得獎)。</li>
+                  <li>本會將另以填寫人所留姓名及電子郵件資料寄發調查禮券及票選獎品，參加者請留下真實姓名及電子郵件信箱(僅供寄送禮券及票選獎品之用)。中獎人所提供個人資料，若有錯誤或遺漏，致使無法證明中獎身分或無法寄送禮券及票選獎品電子郵件者，一律以放棄得獎論。</li>
+                  <li>獎項詳細內容與規格皆以實物為準，得獎人不得要求更換獎項或轉讓。主辦單位保有隨時修改及終止本活動之權利，如有任何變更內容或詳細注意事項將公布於本網頁，恕不另行通知。</li>
+                </ol>
+              </li>
+            </ul>
+            <br>
+            <h4>二、 票選事項：</h4>
+            <ul style="list-style-type:none">
+              <li>
+                <p>本會將於本會網站公告中獎訊息，將依中獎人姓名及電子郵件寄送。</p>
+              </li>
+            </ul>
+            <h4>三、 其他事項：</h4>
+            <ol style="list-style-type:none">
+              <li>
+                <h6>(一)獎項寄送以中獎人登錄之姓名及電子郵件為準，不另行確認，俾加速寄送行政流程。</h6>
+              </li>
+              <li>
+                <h6>(二)本活動如遇其他不可抗力事由，得順延之；本會有權取消、終止、更改或暫停本活動，並得解釋本活動相關事項；針對上開事宜，並將悉公布於本會網站，且依相關規定辦理。</h6>
+              </li>
+              <li>
+                <h6>(三)本會擁有保留獎項、活動時程的修改權利，以及中獎資格審核之最終權利。</h6>
+              </li>
+              <li>
+                <h6>(四)本活動各項規則已詳細載明於活動辦法中，參加者於參加本活動時，即同意接受所有活動規則之規範。如有違反本活動規則，本會得以取消參加資格並依法處理。</h6>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              我了解了
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 推薦說明modal -->
+    <div
+      class="modal fade"
+      id="recommendModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">個人資料保護法相關聲明</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body mx-5">
+            <h5>一、蒐集個人資料單位：「財團法人書香教育文化基金會」(以下稱本會)。</h5>
+            <h5>二、蒐集目的：辦理有關六大新興技術調查之參考，及後續票選活動等相
+              關程序之聯繫使用。
+            </h5>
+            <h5>三、個人資料類別：包含姓名、聯絡電話及電子郵件等個人資料中之識別
+              類訊息。</h5>
+            <h5>四、個人資料利用之時間、地區、對象及方式：
+            </h5>
+            <ul style="list-style-type:none">
+              <li>（一）時間：調查及相關票選活動結束且獎項寄送等後續程序執行完畢。</li>
+              <li>（二）地區：僅供本會內部使用。</li>
+              <li>（三）對象：執行本活動之受調人員。</li>
+              <li>（四）方式：以自動化機器或其他非自動化之利用方式。</li>
+            </ul>
+            <h5>五、本會因辦理本活動而蒐集、處理或利用參與本活動者的個人資料(姓
+              名、電話及電子郵件等)時，皆以尊重參與本活動者的權益為基礎，且
+              遵守中華民國「個人資料保護法」規定。以上個人資料，僅供本會及
+              本會委託執行本活動時之必要相關人員使用。
+            </h5>
+            <h5>六、參與本活動者的個人資料僅會以電子檔或紙本形式於我國境內供本會
+              作為辦理本活動之處理或利用，本會不會將該資料提供其他第三人使
+              用。參加本活動並留下個人資料時，即視同瞭解上述相關內容，並同
+              意本會蒐集、處理及利用所提供的個人資料，作為票選、通知得獎者
+              以及獎品寄送之憑據。
+            </h5>
+            <h5>七、依據個資法第三條規定，本活動參與者瞭解，就其所提供之個人資料
+              得行使下列權利：
+            </h5>
+            <ul style="list-style-type:none">
+              <li>（一）得向本公司查詢或請求閱覽、請求製給複製本，惟本公司依法得酌收必要成本費用。
+              </li>
+              <li>（二）得向本公司請求補充或更正，惟依法本活動參與者應為適當之釋明。
+              </li>
+              <li>（三）得向本公司請求停止蒐集、處理或利用以及請求刪除，惟依法本
+                公司因執行職務或保存證據所必須者，得不依本活動參與者請
+                求為之。
+              </li>
+            </ul>
+            <h5>八、不提供個資所致之影響：參加者應確保所有填寫或提出的資料並非冒
+              用或盜用第三人之個資，如有不實或不正確之情事或第三方提出任何
+              法律或侵權訴訟，應由參加者本人全權負責；同時本會有權利取消該
+              參加者資格並將相關資料自本活動中移除。
+            </h5>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              我了解了
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 互動modal -->
+    <!-- sportModal -->
+    <div class="modal fade" id="sportModal" tabindex="-1" aria-labelledby="sportModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="sportModalLabel">體育賽事中的AI</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/ai/for_modal/sport.png" alt="">
+            </div>
+            <hr>
+            <p>
+              AI 可用來擷取賽事現場的影像，並提供報告給教練，建議如何更理想地規劃比賽，包括配置最佳的場上位置與策略。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- trafficModal -->
+    <div class="modal fade" id="trafficModal" tabindex="-1" aria-labelledby="trafficModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="trafficModalLabel">AI讓交通進化了!!!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/ai/for_modal/traffic.png" alt="">
+            </div>
+            <hr>
+            <p>
+              AI 能透過影像辨識技術，增強車輛辨識、號誌管理、交通安全管理等資訊整合。目前，台灣交通的人工智慧應用，已發展到自駕車、車流計算、路況安全預警、路網優化等領域。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- medicalModal -->
+    <div class="modal fade" id="medicalModal" tabindex="-1" aria-labelledby="medicalModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="medicalModalLabel">AI醫生助理的協助...</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/ai/for_modal/doctor.png" alt="">
+            </div>
+            <hr>
+            <p>
+              AI 應用程式可提供個人化的醫療和 X 光判讀。個人健康照護助理可以扮演人生教練的角色，提醒您服藥、運動或吃得更健康。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- shoppingModal -->
+  <div class="modal fade" id="shoppingModal" tabindex="-1" aria-labelledby="shoppingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="shoppingModalLabel">零售與製造業也逐漸被AI改變...</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body container">
+          <div class="row justify-content-center">
+            <img class="col-6 img-fluid" src="../img/ai/for_modal/shopping.png" alt="">
+          </div>
+          <hr>
+          <p>
+            零售業：
+AI 提供虛擬購物的功能，可給予個人化的建議，並且和消費者討論購買選項。庫存管理和站點配置技術，也可透過 AI 改善。
+
+製造業：
+AI 可以分析從互聯設備串流傳來的工廠物聯網資料，運用循環式網路來預測預期的負載和需求；循環式網路是一種特定的深度學習網路，搭配序列資料使用。
+          </p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- assistantModal -->
+  <div class="modal fade" id="assistantModal" tabindex="-1" aria-labelledby="assistantModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="assistantModalLabel">日常生活中的AI</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body container">
+          <div class="row justify-content-center">
+            <img class="col-6 img-fluid" src="../img/ai/for_modal/robot.png" alt="">
+          </div>
+          <hr>
+          <p>
+            生活中，常見智慧音箱及手機AI助理運用的語音辨識功能；Netflix、YouTube為你推薦的影音演算法；AI客服辨識客戶想法，提出個人化回覆⋯⋯AI人工智慧應用早已無所不在，持續為你改善生活品質。
+          </p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- goodJobModal -->
+  <div class="modal fade" id="goodJobModal" tabindex="-1" aria-labelledby="goodJobModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="goodJobModalLabel">恭喜您完成AI 人工智慧</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body container">
+          <div class="row justify-content-center">
+            <img class="col-6 img-fluid" src="../img/thanks/Good_Job.png" alt="">
+          </div>
+          <div class="col text-center">
+            <h4>恭喜您完成 AI 人工智慧</h4>
+            <p>
+              已經完成第 1 / 6 區 <br>
+              請至少再完成 2 個區域
+            </p>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <a href="../main_page.html" class="col btn btn-outline-light loud-link-click" data-sound="decision10">點我繼續了解</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/jquery.rwdImageMaps.min.js"></script>
+    <script src="../js/loudlinks.min.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+  </body>
+</html>

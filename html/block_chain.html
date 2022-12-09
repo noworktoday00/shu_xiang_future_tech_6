@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/all.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+
+    <title>六大科技小旅程</title>
+  </head>
+  <body style="background-image: url(../img/background_img.jpg);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">六大科技小旅程</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#eventModal" aria-current="page" href="#"
+                >活動辦法</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#recommendModal" href="#">個資保護法</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../main_page.html">返回首頁</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container body">
+      <div class="row justify-content-center">
+        <p class="text-center text-light">※ 點選圖片中的場景，會有意想不到的效果哦</p>
+        <div class="col-md-8 align-self-center" style="position: relative" >
+          <img class="img-fluid" id="block-chain-map-img" src="../img/block_chain/block_chain.gif" usemap="#block-chain-map" alt="" />
+          <map name="block-chain-map" id="block-chain-map">
+            <span class="loud-link-click" data-sound="decision8" data-bs-toggle="modal" data-bs-target="#doctorModal">
+              <area  alt="" title="區塊鏈與醫療安全" href="#" shape="poly" coords="604,480,603,459,635,443,633,433,686,407,715,430,713,440,742,462,742,478,675,519" style="outline:none;" target="_self"     />
+            </span>
+            <span class="loud-link-click" data-sound="decision2" data-bs-toggle="modal" data-bs-target="#artModal">
+              <area  alt="" title="NFT 與 數位藝術" href="#" shape="poly" coords="695,312,761,276,762,259,726,237,727,116,662,76,651,96,659,237,630,255,639,281" style="outline:none;" target="_self"     />
+            </span>
+            <span class="loud-link-click" data-sound="decision3" data-bs-toggle="modal" data-bs-target="#contractModal">
+              <area  alt="" title="區塊鏈與數位合約" href="#" shape="poly" coords="517,329,517,350,587,390,657,348,657,332,620,314,622,259,574,260,550,279,544,317" style="outline:none;" target="_self"     />
+            </span>
+            <span class="loud-link-click" data-sound="decision4" data-bs-toggle="modal" data-bs-target="#musicModal">
+              <area  alt="" title="區塊鏈與串流音樂的價值" href="#" shape="poly" coords="306,345,325,326,373,301,359,264,376,220,423,227,444,255,427,293,429,308,461,325,460,346,391,385" style="outline:none;" target="_self"     />
+            </span>
+            <span class="loud-link-click" data-sound="decision5" data-bs-toggle="modal" data-bs-target="#lockModal">
+              <area  alt="" title="區塊鏈與網路身份..." href="#" shape="poly" coords="173,336,146,349,140,381,152,399,196,411,244,405,266,389,266,359,251,340,236,334,237,299,226,292,208,267,189,271,178,303,168,314,163,340" style="outline:none;" target="_self"     />
+            </span>
+          </map>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8 text-light">
+          <h3>區塊鏈 ( Block chain )</h3>
+          <p>區塊鏈是不可變的共用分類帳，可在商業網路中促進記錄交易與追蹤資產的程序。資產可以是有形的（房子、汽車、現金、土地）或無形的（智慧財產權、專利、著作權、品牌）。幾乎任何有價值的東西都可以透過區塊鏈網路追蹤與交易，以全面降低風險和成本。企業以資訊來營運，資訊接收越快越準確，經營得就越好。區塊鏈很適合提供該資訊，因為它可提供儲存在不可變總帳中的即時、共用及完全透明資訊，而且只有獲得許可的網路成員才能存取這些資訊。區塊鏈網路可追蹤訂單、付款、帳戶、生產及其他等。</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/giie1R0UL-E" title="區塊鏈≠虛擬貨幣！所以區塊鏈是在幹嘛？｜｜《Cheap教你金融科技力》 EP 5."  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p class="text-white">※ 本轉載之影片內容均用於非商業用途。純粹為教育、非營利等合法目的，而影片之之著作權、所有權與智慧財產權，包括內容、文字、圖片、聲音、影像等均為台灣金融研訓院所有。</p>
+        </div>
+        </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-8 border border-light rounded text-light">
+          <form>
+            <h4 class="mt-5 mb-3 text-center">對於區塊鏈的發展，會困惑嗎?</h4>
+            <div class="mx-5 mb-5 border border-light rounded p-3">
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio"  name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label "  for="flexRadioDefault1">
+                  市場上的虛擬貨幣越來越多，其實擔心會泡沫化 ?
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio"  name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label "  for="flexRadioDefault2">
+                  虛擬貨幣可可追蹤來源，且有加密性質，一定是個趨勢
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio"  name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label "  for="flexRadioDefault3">
+                  銀行戶頭以及生產都有區塊鏈追蹤交易，肯定會減少許多失誤
+                </label>
+              </div>
+              <div class="form-check mb-2 loud-link-click" data-sound="click_bubble">
+                <input class="form-check-input " type="radio"  name="flexRadioDefault" id="flexRadioDefault4">
+                <label class="form-check-label "  for="flexRadioDefault4">
+                  所以這些區塊鏈的資料到底都存在什麼地方啊 ???
+                </label>              
+              </div>
+            </div>
+            <h4 class="my-3 text-center">跟我們分享一些您對區塊鏈的看法吧!</h4>
+            <div class="mx-5 mb-5">
+              <div class="d-grid gap-2">
+                <a class="btn btn-outline-light loud-link-click" target="_blank" href="https://script.google.com/macros/s/AKfycbxv60Vb2TbPPzEVqSuQAyCnSUS6v-0h9pjeEQIROV6ICDuFSjiDsg6bQVCYxmEPYYTVyA/exec">進入心得上傳系統</a>
+              </div>
+            </div>
+            <h4 class="my-3 text-center">你有心中推薦區塊鏈的相關讀物嗎?</h4>
+            <div class="mx-5 mb-5">
+              <div class="form-control my-3" style="background: transparent; color: #fff;">
+                  <label class="mt-3" for="readingtype">選擇讀物類別</label>
+                  <select class="form-select mb-3" id="readingtype" aria-label="Default select example" style="background: transparent; color: #fff;">
+                    <option class="text-dark" selected>請選擇讀物類別</option>
+                    <option class="text-dark" value="書籍">紙本型式：書籍</option>
+                    <option class="text-dark" value="教師自製講義">紙本型式：教師自製講義</option>
+                    <option class="text-dark" value="網站">電子型式：網站</option>
+                    <option class="text-dark" value="電子書">電子型式：電子書</option>
+                    <option class="text-dark" value="視頻">多媒體型式：視頻（ youtube 、 tiktok 、 DVD 等等）
+                    </option>
+                    <option class="text-dark" value="線上期刊">電子型式：線上期刊</option>
+                    <option class="text-dark" value="紙本期刊">紙本型式：紙本期刊</option>
+                    <option class="text-dark" value="網路新聞">電子型式：網路新聞</option>
+                    <option class="text-dark" value="電子資料庫">電子資料庫</option>
+                    <option class="text-dark" value="雜誌">紙本型式：雜誌</option>
+                    <option class="text-dark" value="社交媒體">電子型式：社交媒體（ Facebook 、 Instergram 等）</option>
+                    <option class="text-dark" value="線上雜誌">電子型式：線上雜誌</option>
+                    <option class="text-dark" value="報紙">紙本型式：報紙</option>
+                    <option class="text-dark" value="有聲書">多媒體型式：有聲書（ 光碟、 mp3 等）</option>
+                  </select>
+                  <h6>推薦讀物名稱</h6>
+                  <div class="form-floating">
+                    <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea" style="height: 20 px ;background: transparent; color: #fff"></textarea>
+                    <label for="floatingTextarea">讀物名稱是...</label>
+                  </div>
+              </div>
+            </div>
+            <div class="mx-5 mb-5">
+              <div class="d-grid gap-2">
+                <button class="btn btn-outline-light loud-link-click" type="button" data-sound="decision11" data-bs-toggle="modal" data-bs-target="#goodJobModal">確認送出推薦</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+          <div class="row row-cols-sm-6 row-cols-3 text-center">
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./ai.html">人工智慧</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./big_data.html">大數據</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="#">區塊鏈</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./cloud_computing.html">雲計算</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./edge_computing.html">邊緣計算</a></div>
+            <div class="col"><a class="text-light link" style="text-decoration: none;" href="./five_g.html">5G應用</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="fixed-bottom">
+      <div class="container-fluid bg-dark py-1 text-center text-light">
+        <p class="mt-1">Copyright © 2022 財團法人書香文化教育基金會 - All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- 活動辦法 modal -->
+    <div
+      class="modal fade"
+      id="eventModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">本活動規範事項</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body mx-5">
+            <h4>一、 活動說明：</h4>
+            <ul style="list-style-type:none">
+              <li>
+                <h6>(一) 活動期間：依本會所定時間。</h6>
+              </li>
+              <li>
+                <h6>(二) 活動對象：全國大專院校(含)以上之公民。</h6>
+              </li>
+              <li>
+                <h6 >(三) 參加辦法：</h6>
+                <ol>
+                  <li >活動期間內，參加者連結活動網址完成本會調查，並登錄正確個人資料(真實姓名、手機號碼及電子郵件)，即可參加票選活動。每人限參加登錄1次，並獲得1次票選機會(僅限1次得獎)。</li>
+                  <li>本會將另以填寫人所留姓名及電子郵件資料寄發調查禮券及票選獎品，參加者請留下真實姓名及電子郵件信箱(僅供寄送禮券及票選獎品之用)。中獎人所提供個人資料，若有錯誤或遺漏，致使無法證明中獎身分或無法寄送禮券及票選獎品電子郵件者，一律以放棄得獎論。</li>
+                  <li>獎項詳細內容與規格皆以實物為準，得獎人不得要求更換獎項或轉讓。主辦單位保有隨時修改及終止本活動之權利，如有任何變更內容或詳細注意事項將公布於本網頁，恕不另行通知。</li>
+                </ol>
+              </li>
+            </ul>
+            <br>
+            <h4>二、 票選事項：</h4>
+            <ul style="list-style-type:none">
+              <li>
+                <p>本會將於本會網站公告中獎訊息，將依中獎人姓名及電子郵件寄送。</p>
+              </li>
+            </ul>
+            <h4>三、 其他事項：</h4>
+            <ol style="list-style-type:none">
+              <li>
+                <h6>(一)獎項寄送以中獎人登錄之姓名及電子郵件為準，不另行確認，俾加速寄送行政流程。</h6>
+              </li>
+              <li>
+                <h6>(二)本活動如遇其他不可抗力事由，得順延之；本會有權取消、終止、更改或暫停本活動，並得解釋本活動相關事項；針對上開事宜，並將悉公布於本會網站，且依相關規定辦理。</h6>
+              </li>
+              <li>
+                <h6>(三)本會擁有保留獎項、活動時程的修改權利，以及中獎資格審核之最終權利。</h6>
+              </li>
+              <li>
+                <h6>(四)本活動各項規則已詳細載明於活動辦法中，參加者於參加本活動時，即同意接受所有活動規則之規範。如有違反本活動規則，本會得以取消參加資格並依法處理。</h6>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              我了解了
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 推薦說明 modal -->
+    <div
+      class="modal fade"
+      id="recommendModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">個人資料保護法相關聲明</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body mx-5">
+            <h5>一、蒐集個人資料單位：「財團法人書香教育文化基金會」(以下稱本會)。</h5>
+            <h5>二、蒐集目的：辦理有關六大新興技術調查之參考，及後續票選活動等相
+              關程序之聯繫使用。
+            </h5>
+            <h5>三、個人資料類別：包含姓名、聯絡電話及電子郵件等個人資料中之識別
+              類訊息。</h5>
+            <h5>四、個人資料利用之時間、地區、對象及方式：
+            </h5>
+            <ul style="list-style-type:none">
+              <li>（一）時間：調查及相關票選活動結束且獎項寄送等後續程序執行完畢。</li>
+              <li>（二）地區：僅供本會內部使用。</li>
+              <li>（三）對象：執行本活動之受調人員。</li>
+              <li>（四）方式：以自動化機器或其他非自動化之利用方式。</li>
+            </ul>
+            <h5>五、本會因辦理本活動而蒐集、處理或利用參與本活動者的個人資料(姓
+              名、電話及電子郵件等)時，皆以尊重參與本活動者的權益為基礎，且
+              遵守中華民國「個人資料保護法」規定。以上個人資料，僅供本會及
+              本會委託執行本活動時之必要相關人員使用。
+            </h5>
+            <h5>六、參與本活動者的個人資料僅會以電子檔或紙本形式於我國境內供本會
+              作為辦理本活動之處理或利用，本會不會將該資料提供其他第三人使
+              用。參加本活動並留下個人資料時，即視同瞭解上述相關內容，並同
+              意本會蒐集、處理及利用所提供的個人資料，作為票選、通知得獎者
+              以及獎品寄送之憑據。
+            </h5>
+            <h5>七、依據個資法第三條規定，本活動參與者瞭解，就其所提供之個人資料
+              得行使下列權利：
+            </h5>
+            <ul style="list-style-type:none">
+              <li>（一）得向本公司查詢或請求閱覽、請求製給複製本，惟本公司依法得酌收必要成本費用。
+              </li>
+              <li>（二）得向本公司請求補充或更正，惟依法本活動參與者應為適當之釋明。
+              </li>
+              <li>（三）得向本公司請求停止蒐集、處理或利用以及請求刪除，惟依法本
+                公司因執行職務或保存證據所必須者，得不依本活動參與者請
+                求為之。
+              </li>
+            </ul>
+            <h5>八、不提供個資所致之影響：參加者應確保所有填寫或提出的資料並非冒
+              用或盜用第三人之個資，如有不實或不正確之情事或第三方提出任何
+              法律或侵權訴訟，應由參加者本人全權負責；同時本會有權利取消該
+              參加者資格並將相關資料自本活動中移除。
+            </h5>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              我了解了
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 互動 modal -->
+    <!-- doctorModal -->
+    <div class="modal fade" id="doctorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">醫療去中心化</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/block_chain/for_modal/doctor.png" alt="">
+            </div>
+            <hr>
+            <p>
+              區塊鏈最主要的應用是對個人醫療紀錄的保存，可以理解為區塊鏈上的電子病歷。如果可以用區塊鏈技術來進行保存，就有了個人醫療的歷史資料，未來看病或對自己的健康做規劃就有資料可供使用，而這個資料真正的掌握者是患者自己，而不是某個醫院或協力廠商機構。另外，這些資料有很強的隱私性，使用區塊鏈技術也有助於保護患者隱私。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- artModal -->
+    <div class="modal fade" id="artModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">區塊鏈 數位藝術</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/block_chain/for_modal/art.png" alt="">
+            </div>
+            <hr>
+            <p>
+              數位藝術是區塊鏈加密技術能提供顛覆性創新的另一個舞臺。數位藝術在區塊鏈行業的主要應用是指，利用區塊鏈技術來註冊任何形式的智慧財產權，或將鑒證服務變得更加普遍，如合同公證。數位藝術還可以透過區塊鏈來保護線上圖片、照片或數位藝術作品，這些數位資產的智慧財產權。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contractModal -->
+    <div class="modal fade" id="contractModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">區塊鏈 數位身分驗證</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/block_chain/for_modal/contract.png" alt="">
+            </div>
+            <hr>
+            <p>
+              現在很多網站使用中心化的協力廠商登錄，比如FB登錄、LINE登錄。那麼未來，我們也許就會使用區塊鏈技術提供的去中心化協力廠商服務登錄，可以用姓名、地址或二維碼登錄，且和手機綁定，可以自由暢遊網路世界。在電商網站購買時，也不需要繁瑣的綁定銀行卡就可轉接到數位支付等操作，直接用電子錢包一鍵購買。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- musicModal -->
+    <div class="modal fade" id="musicModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">區塊鏈 線上音樂</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/block_chain/for_modal/music.png" alt="">
+            </div>
+            <hr>
+            <p>
+              區塊鏈技術可提升線上音樂分享的公平性。目前有公司正透過直接付款給藝術家和利用智慧合約來自動解決許可問題。在區塊鏈音樂流平臺上，使用者可以直接付款給藝術家，而無須中間人插手。除了媒體音樂，還有人預想，將智慧合約作為歌曲清單的自主大腦，能夠更好地將歌曲背後的藝術家和創作者分類。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- lockModal -->
+    <div class="modal fade" id="lockModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">區塊鏈 網路安全</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/block_chain/for_modal/lock.png" alt="">
+            </div>
+            <hr>
+            <p>
+              雖然區塊鏈的系統是公開的，但其核驗、發送等資料交流過程卻採用了先進的加密技術。這種技術不僅確保了資料的來源正確，也確保了資料在中間過程不被人攔截、更改。如果區塊鏈技術的應用更為廣泛，那麼其遭受駭客襲擊的機率也會下降，區塊鏈系統之所以能降低傳統網路安全風險，就是因為它解除了對中間人的需求。省去中間人不僅降低了駭客襲擊的潛在安全風險，也減少了腐敗產生的可能。
+            </p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="col btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- goodJobModal -->
+    <div class="modal fade" id="goodJobModal" tabindex="-1" aria-labelledby="goodJobModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="goodJobModalLabel">恭喜您完成區塊鏈</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body container">
+            <div class="row justify-content-center">
+              <img class="col-6 img-fluid" src="../img/thanks/Good_Job.png" alt="">
+            </div>
+            <div class="col text-center">
+              <h4>恭喜您完成區塊鏈的探索</h4>
+              <p>
+                已經完成第 3 / 6 區 <br>
+                您可以選擇繼續完成其他 <br>
+                或前往填寫詳細資料
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+              <a href="../main_page.html" class="col btn btn-outline-light">前往下一個科技領域</a>
+              <a href="../personal_infomation.html" class="col btn btn-light">前往填寫詳細資料</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/jquery.rwdImageMaps.min.js"></script>
+    <script src="../js/loudlinks.min.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+  </body>
+</html>
