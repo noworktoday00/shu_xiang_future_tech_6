@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/all.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <title>六大科技領域參考資料集錦</title>
+  <style>
+    .card {
+      background: rgba(0, 0, 0, 0.4) !important;
+      border-radius: 16px;
+    }
+  </style>
+</head>
+
+<body style="background-image: url(../../img/background_img.jpg); background-size: 100% 100%;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">六大科技領域參考資料集錦</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./ai_resource.html">AI 人工智能</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="./block_chain_resource.html">區塊鏈</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./big_data_resource.html">大數據</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cloud_computing_resource.html">雲計算</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./edge_computing_resource.html">邊緣計算</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./five_g_resource.html">5G 應用</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1 class="text-center text-white my-5">區塊鏈</h1>
+    <div class="section section-1 mb-5">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+          <img class="img-fluid" src="../../img/resource/blockChain_side_1.png" alt="">
+        </div>
+        <div class="col-12 col-md-6">
+          <p class="text-white">
+            區塊鏈是什麼？原理是什麼？
+            <br>
+            區塊鏈就是一種紀錄資料的技術，區塊鏈藉由密碼學串接來保護內容的文字記錄，讓這串記錄極難被竄改，藉由這個特性進而實現各種應用；這些文字記錄稱為區塊Block，每個區塊包含前一個區塊的加密雜湊值（hash
+            value，可以想像是一串難以破解的亂數密碼）、時間戳記、交易數據，這使得區塊鏈擁有難以竄改的特性。
+            <br>
+            不過除非你是工程師、需要設計這套系統，否則你只需要理解它的原理，以及如何應用。要理解區塊鏈是什麼、為什麼極難被竄改時，要從區塊鏈「去中心化」特性下手。
+            相較於傳統所有傳輸、認證過程都需要經過一個統一中央伺服器，這會導致紀錄的資訊內容在過程中可能會被竄改，區塊鏈使用的是點對點的架構（P2P），
+            能通過分散式的帳本（也能理解為節點），使得區塊鏈上的資料不存在一個核心個體內，而是獨立存在許多分散的節點上，而且這些節點還會不斷的互相驗證彼此的資料，如此便能有效降低資料竄改或竊取的可能，這也就是所謂的去中心化。
+
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 order-2 order-md-1">
+          <p class="text-white">
+            舉個A想要轉帳一定金額給B的例子，來解釋區塊鏈的去中心化意義：
+            <br>
+            中心化模式
+            <br>
+            假設A、B都擁有同一個銀行帳戶，此時該銀行就像是一個資料庫，會記錄每人的帳上有多少錢。
+            那麼當A發送100塊錢台幣時給B帳戶時，該銀行的資料庫就會紀錄: A-100，B+100的結果。
+            <br>
+            區塊鏈的去中心化模式
+            <br>
+            當A發送1個比特幣給B時，區塊鏈上的所有節點都有機會去競爭記帳的權利，區塊鏈系統會在這些節點選出一個最快、最好的節點，讓他在這段時間記帳後便會形成一個區塊Block，區塊內就會紀錄：交易時間、交易歷程、雜湊值等資訊。
+            而首先記帳的節點，接著會把這個區塊傳遞給其他節點，在核實區塊內容無誤後才會放進自己的帳本，直到所有區塊鏈上的節點都有一致的交易資訊。
+            <br>
+            資料網站: <a class="text-white"
+              href="https://rich01.com/what-is-blockchain/">https://rich01.com/what-is-blockchain/</a>
+
+          </p>
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2">
+          <img class="img-fluid" src="../../img/resource/blockChain_side_2.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="section section-2 mb-5">
+      <h2 class="text-center text-white mb-5">
+        延伸影音觀賞
+      </h2>
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-3">
+          <div class="card h-100 opacity-1 text-white">
+            <h4 class="card-title py-2 text-center">芬特克 FinTech EP1</h4>
+            <iframe height="320" src="https://www.youtube.com/embed/5r8kJCE1S1s"
+              title="『發現芬特克！比特幣 & 區塊鏈原理大解析』芬特克 FinTech EP1" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="card-body">
+              <p class="card-text py-2">發現芬特克！比特幣 & 區塊鏈原理大解析</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card h-100 opacity-1 text-white">
+            <h4 class="card-title py-2 text-center">Vol.112 區塊鏈到底是什麼？</h4>
+            <iframe height="320" src="https://www.youtube.com/embed/TVlo66aOZE0" title="Vol.112 區塊鏈到底是什麼？"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="card-body">
+              <p class="card-text py-2">比特幣憑什麼值 1 萬億人民币？區塊鏈到底幹了什麼？匿名網路裡絕對安全的數位貨幣真的存在嗎？</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card h-100 opacity-1 text-white">
+            <h4 class="card-title py-2 text-center">李永樂老師講比特幣(1)</h4>
+            <iframe height="320" src="https://www.youtube.com/embed/g_fSistU3MQ"
+              title="比特幣和區塊鏈到底是啥？礦機挖礦咋回事？李永樂老師講比特幣(1)" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="card-body">
+              <p class="card-text py-2">比特幣和區塊鏈到底是啥？礦機挖礦咋回事？</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card h-100 opacity-1 text-white">
+            <h4 class="card-title py-2 text-center">《Cheap教你金融科技力》 EP 5.</h4>
+            <iframe height="320" src="https://www.youtube.com/embed/giie1R0UL-E"
+              title="區塊鏈≠虛擬貨幣！所以區塊鏈是在幹嘛？｜｜《Cheap教你金融科技力》 EP 5." frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="card-body">
+              <p class="card-text py-2">
+                區塊鏈簡單來說，就是交易記錄的歷史，也就是資料區塊之間的鏈條。比如小美找小明買了一套軟體，小美轉帳給小明500元，如果這筆交易同時記錄在這個貨幣所有使用者的帳本上，那麼這個貨幣就會具有強大的可靠性。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-3 mb-5">
+      <h2 class="text-center text-white mb-5">延伸文字閱讀</h2>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100 text-white">
+            <div class="card-header border-light">
+              維基百科
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">區塊鏈（英語：block chain）是藉由密碼學與共識機制等技術建立與儲存龐大交易資料區塊串鏈的點對點網路系統。</h5>
+              <p class="card-text">每一個區塊包含了前一個區塊的加密雜湊、相應時間戳記以及交易資料（通常用默克爾樹（Merkle
+                tree）演算法計算的雜湊值表示），這樣的設計使得區塊內容具有難以篡改的特性。但如果掌握區塊鏈節點51%以上的運算力，就能操控區塊鏈的內容。如果一開始寫入的內容是錯誤的內容，那麼區塊鏈技術只是讓錯誤的內容難以被篡改。
+              </p>
+              <a href="https://zh.wikipedia.org/zh-tw/%E5%8C%BA%E5%9D%97%E9%93%BE" target="_blank"
+                class="btn btn-outline-light">閱讀更多...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 text-white">
+            <div class="card-header border-light">
+              Alibaba Cloud
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">什麼是區塊鏈？</h5>
+              <p class="card-text">
+                我們大多數人都遇到過圍繞比特幣的所有談論，一些預測聲稱法定貨幣和黃金可以完全替換，以便存儲價值或支付交易，並且由於供應有限，比特幣的價值可能達到天文數字的高度！在本文中，我們將旨在揭開區塊鏈的神秘面紗，這是一種為比特幣提供動力的技術，因此您可以對這項技術的革命性發表自己的看法！
+              </p>
+              <a href="https://www.alibabacloud.com/tc/knowledge/what-is-blockchain" target="_blank"
+                class="btn btn-outline-light">閱讀更多...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 text-white">
+            <div class="card-header border-light">
+              亞馬遜AI
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">什麼是區塊鏈技術？</h5>
+              <p class="card-text">
+                區塊鏈技術是一種進階資料庫機制，允許在業務網路中分享透明的資訊。區塊鏈資料庫會將資料存放在連結於同一鏈的區塊中。資料在時間順序上具有一致性，因為在無網路共識的情況下，您不能刪除或修改此鏈。</p>
+              <a href="https://aws.amazon.com/tw/what-is/blockchain/" target="_blank"
+                class="btn btn-outline-light">閱讀更多...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 text-white">
+            <div class="card-header border-light">
+              天下雜誌
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">不懂技術沒關係！圖解告訴你區塊鏈可以這樣用</h5>
+              <p class="card-text">
+                比特幣透過加密技術，用分散式帳本跳過中介銀行，讓所有參與者的電腦一起記帳、確認，成為去中心化的交易系統。
+
+                以太坊在比特幣的基礎上，再加上智慧合約的功能。
+
+                智慧合約是用程式寫成的，依據合約，還可搭配金融交易，因此許多人透過它來發行自己的代幣。智慧合約還可用來記錄股權、資產所有權、醫療病歷、證書等，讓區塊鏈的發展有無限可能。
+              </p>
+              <a href="https://www.cw.com.tw/article/5090842" target="_blank" class="btn btn-outline-light">閱讀更多...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 text-white">
+            <div class="card-header border-light">
+              財金資訊季刊
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">如何建置一個實用的區塊鏈平台</h5>
+              <p class="card-text">
+                「臺灣的金融服務應用，如果想要導入區
+                塊鏈機制，要如何建置一個實用的區塊鏈平
+                台？」在過去半年多來，每次演講都會被問到
+                這樣的問題；雖然有些想法，但始終不敢貿然
+                回答這類的問題。一直到最近，手邊三個概念
+                驗證 (Proof of Concept , POC) 的案子已進行
+                到後期，稍有初步的成果，才有機會整理出一
+                些經驗與想法，野人獻曝地在此與大家分享。
+              </p>
+              <a href="https://www.fisc.com.tw/Upload/b0499306-1905-4531-888a-2bc4c1ddb391/TC/9006.pdf" target="_blank"
+                class="btn btn-outline-light">閱讀更多...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 text-white">
+            <div class="card-header border-light">
+              Mr.Market 市場先生
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">關於區塊鏈，你至少要知道些什麼？</h5>
+              <p class="card-text">
+                區塊鏈是什麼？
+
+                有許多人看了一堆文章還是霧煞煞，
+                這次讓市場先生由淺入深，不會講太多艱澀難懂的技術面原理，
+                帶各位讀者從歷史發展、應用、限制到最新的演進一次搞清楚什麼是區塊鏈。
+
+                區塊鏈技術產生的 加密貨幣 也是越來越多投資人關心的項目，
+                而區塊鏈的本質其實是要透過去掉中心化的中間，使得企業或政府能夠有更準確、更安全、更高效、且成本更低的運作模式。
+              </p>
+              <a href="https://www.fisc.com.tw/Upload/b0499306-1905-4531-888a-2bc4c1ddb391/TC/9006.pdf" target="_blank"
+                class="btn btn-outline-light">閱讀更多...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-4 mb-5">
+      <h2 class="text-center text-white mb-5">國內數位學習平台</h2>
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-3">
+          <div class="card h-100 text-white">
+            <div class="card-header py-3 border-light">
+              <h4>CBA亞洲區塊鏈學院</h4>
+              <h5>CBA亞洲區塊鏈學院</h5>
+            </div>
+            <div class="card-body">
+              <img src="" alt="">
+              <p class="card-text">完整區塊鏈培訓課程，紮實訓練成為頂尖「區塊鏈商業應用規劃師」與「區塊鏈技術專家」</p>
+              <a href="https://cbaofficial.com/" target="_blank" class="btn btn-outline-light">閱讀更多...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card h-100 text-white">
+            <div class="card-header py-3 border-light">
+              <h4>區塊吧</h4>
+              <h5>BLOCKBAR</h5>
+            </div>
+            <div class="card-body">
+              <img src="" alt="">
+              <p class="card-text">區塊吧 BLOCKBAR 是由一群Blockchain自學愛好者組成的區塊鏈學習資源分享社群。</p>
+              <a href="https://blockbar.io/" target="_blank" class="btn btn-outline-light">閱讀更多...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section-5 my-5 d-none d-md-block">
+        <div class="row">
+          <a class="col text-white text-center fs-3 text-decoration-none" href="./ai_resource.html">人工智慧</a>
+          <a class="col text-white text-center fs-3 text-decoration-none" href="./big_data_resource.html">大數據</a>
+          <a class="col text-white text-center fs-3 text-decoration-none" href="./block_chain_resource.html">區塊鏈</a>
+          <a class="col text-white text-center fs-3 text-decoration-none" href="./cloud_computing_resource.html">雲計算</a>
+          <a class="col text-white text-center fs-3 text-decoration-none" href="./edge_computing_resource.html">邊緣計算</a>
+          <a class="col text-white text-center fs-3 text-decoration-none" href="./five_g_resource.html">5G應用</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-fluid bg-dark py-1 text-center text-light">
+      <p class="mt-1">Copyright © 2022 財團法人書香文化教育基金會 - All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
