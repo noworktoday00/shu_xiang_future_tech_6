@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 219.53 219.53">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#_未命名漸層_93-3);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: url(#_未命名漸層_93-2);
+      }
+
+      .cls-5 {
+        font-size: 28.3px;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #fff;
+        font-family: PingFangTC-Semibold-B5pc-H, 'PingFang TC';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        stroke: url(#_未命名漸層_64);
+      }
+
+      .cls-4 {
+        stroke: url(#_未命名漸層_93);
+      }
+
+      .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-6 {
+        font-size: 94.28px;
+      }
+
+      .cls-8 {
+        fill: url(#_未命名漸層_89);
+        mix-blend-mode: lighten;
+        opacity: .3;
+      }
+    </style>
+    <linearGradient id="_未命名漸層_89" data-name="未命名漸層 89" x1="109.83" y1="16.07" x2="109.83" y2="204.43" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#ff0"/>
+      <stop offset=".56" stop-color="aqua"/>
+      <stop offset="1" stop-color="#fcee21"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_93" data-name="未命名漸層 93" x1="-1190.76" y1="-2219.55" x2="-1001.24" y2="-2219.55" gradientTransform="translate(-2109.72 1206.25) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcee21"/>
+      <stop offset=".61" stop-color="aqua"/>
+      <stop offset="1" stop-color="#fcee21"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_93-2" data-name="未命名漸層 93" x1="28.01" y1="86.7" x2="110.08" y2="86.7" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#_未命名漸層_93"/>
+    <linearGradient id="_未命名漸層_93-3" data-name="未命名漸層 93" x1="109.58" y1="86.7" x2="191.64" y2="86.7" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#_未命名漸層_93"/>
+    <linearGradient id="_未命名漸層_64" data-name="未命名漸層 64" x1="109.33" y1="157.34" x2="110.33" y2="157.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b9e8e4"/>
+      <stop offset=".61" stop-color="aqua"/>
+      <stop offset="1" stop-color="#00a99d"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-7">
+    <g id="five_g">
+      <text class="cls-6" transform="translate(43.42 143.38)"><tspan x="0" y="0">5G</tspan></text>
+      <g>
+        <polygon class="cls-8" points="191.39 157.34 191.39 63.16 109.83 16.07 28.26 63.16 28.26 157.34 109.83 204.43 191.39 157.34"/>
+        <polygon class="cls-4" points="191.39 157.34 191.39 63.16 109.83 16.07 28.26 63.16 28.26 157.34 109.83 204.43 191.39 157.34"/>
+        <line class="cls-2" x1="28.26" y1="63.16" x2="109.83" y2="110.25"/>
+        <line class="cls-1" x1="191.39" y1="63.16" x2="109.83" y2="110.25"/>
+        <line class="cls-3" x1="109.83" y1="204.43" x2="109.83" y2="110.25"/>
+      </g>
+      <text class="cls-5" transform="translate(59.48 49.6)"><tspan x="0" y="0">5G 應用</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 27.36px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: PingFangTC-Semibold-B5pc-H, 'PingFang TC';
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 36.54px;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: url(#_未命名漸層_72);
+        opacity: .3;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        mix-blend-mode: lighten;
+      }
+
+      .cls-5 {
+        stroke: url(#_未命名漸層_72-5);
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        stroke: url(#_未命名漸層_72-2);
+      }
+
+      .cls-7 {
+        stroke: url(#_未命名漸層_72-4);
+      }
+
+      .cls-8 {
+        stroke: url(#_未命名漸層_72-3);
+      }
+    </style>
+    <linearGradient id="_未命名漸層_72" data-name="未命名漸層 72" x1="99.84" y1="6.38" x2="99.84" y2="192.65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f53ab"/>
+      <stop offset=".61" stop-color="#29abe2"/>
+      <stop offset="1" stop-color="#93278f"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_72-2" data-name="未命名漸層 72" x1="18.68" y1="99.51" x2="181" y2="99.51" xlink:href="#_未命名漸層_72"/>
+    <linearGradient id="_未命名漸層_72-3" data-name="未命名漸層 72" x1="18.93" y1="76.23" x2="100.09" y2="76.23" xlink:href="#_未命名漸層_72"/>
+    <linearGradient id="_未命名漸層_72-4" data-name="未命名漸層 72" x1="99.59" y1="76.23" x2="180.75" y2="76.23" xlink:href="#_未命名漸層_72"/>
+    <linearGradient id="_未命名漸層_72-5" data-name="未命名漸層 72" x1="99.34" y1="146.08" x2="100.34" y2="146.08" xlink:href="#_未命名漸層_72"/>
+  </defs>
+  <g class="cls-3">
+    <g id="cloud_computing">
+      <text class="cls-1" transform="translate(28.66 102.61)"><tspan x="0" y="0">Cloud</tspan><tspan x="0" y="22.97">Computing</tspan></text>
+      <g>
+        <polygon class="cls-4" points="180.5 146.08 180.5 52.94 99.84 6.38 19.18 52.94 19.18 146.08 99.84 192.65 180.5 146.08"/>
+        <polygon class="cls-6" points="180.5 146.08 180.5 52.94 99.84 6.38 19.18 52.94 19.18 146.08 99.84 192.65 180.5 146.08"/>
+        <line class="cls-8" x1="19.18" y1="52.94" x2="99.84" y2="99.51"/>
+        <line class="cls-7" x1="180.5" y1="52.94" x2="99.84" y2="99.51"/>
+        <line class="cls-5" x1="99.84" y1="192.65" x2="99.84" y2="99.51"/>
+      </g>
+      <text class="cls-2" transform="translate(44.19 52.93)"><tspan x="0" y="0">雲計算</tspan></text>
+    </g>
+  </g>
+</svg>

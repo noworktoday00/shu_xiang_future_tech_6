@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 221.82 221.82">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 27.36px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: PingFangTC-Semibold-B5pc-H, 'PingFang TC';
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 32.88px;
+      }
+
+      .cls-3 {
+        stroke: url(#_未命名漸層_106);
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        fill: url(#_未命名漸層_100);
+        mix-blend-mode: lighten;
+        opacity: .3;
+      }
+
+      .cls-4 {
+        stroke: url(#_未命名漸層_106-3);
+      }
+
+      .cls-5 {
+        stroke: url(#_未命名漸層_106-4);
+      }
+
+      .cls-6 {
+        stroke: url(#_未命名漸層_106-2);
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+    </style>
+    <linearGradient id="_未命名漸層_100" data-name="未命名漸層 100" x1="110.53" y1="12.92" x2="110.53" y2="208.94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f15a24"/>
+      <stop offset=".61" stop-color="#fcee21"/>
+      <stop offset="1" stop-color="#ed1c24"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_106" data-name="未命名漸層 106" x1="-1460.91" y1="-1950.96" x2="-1263.73" y2="-1950.96" gradientTransform="translate(-1840.43 1473.25) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f15a24"/>
+      <stop offset=".61" stop-color="#fcee21"/>
+      <stop offset="1" stop-color="#f7931e"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_106-2" data-name="未命名漸層 106" x1="25.4" y1="86.43" x2="110.78" y2="86.43" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#_未命名漸層_106"/>
+    <linearGradient id="_未命名漸層_106-3" data-name="未命名漸層 106" x1="110.28" y1="86.43" x2="195.66" y2="86.43" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#_未命名漸層_106"/>
+    <linearGradient id="_未命名漸層_106-4" data-name="未命名漸層 106" x1="110.03" y1="159.94" x2="111.03" y2="159.94" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#_未命名漸層_106"/>
+  </defs>
+  <g class="cls-8">
+    <g id="edge_computing">
+      <text class="cls-1" transform="translate(41.57 114.52)"><tspan x="0" y="0">Edge</tspan><tspan x="0" y="22.97">Computing</tspan></text>
+      <g>
+        <polygon class="cls-7" points="195.41 159.94 195.41 61.93 110.53 12.92 25.65 61.93 25.65 159.94 110.53 208.94 195.41 159.94"/>
+        <polygon class="cls-3" points="195.41 159.94 195.41 61.93 110.53 12.92 25.65 61.93 25.65 159.94 110.53 208.94 195.41 159.94"/>
+        <line class="cls-6" x1="25.65" y1="61.93" x2="110.53" y2="110.93"/>
+        <line class="cls-4" x1="195.41" y1="61.93" x2="110.53" y2="110.93"/>
+        <line class="cls-5" x1="110.53" y1="208.94" x2="110.53" y2="110.93"/>
+      </g>
+      <text class="cls-2" transform="translate(48.65 56.69)"><tspan x="0" y="0">邊緣計算</tspan></text>
+    </g>
+  </g>
+</svg>

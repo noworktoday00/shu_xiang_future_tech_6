@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 233.31 233.31">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 54.88px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: PingFangTC-Semibold-B5pc-H, 'PingFang TC';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        stroke: url(#_未命名漸層_64-4);
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke: url(#_未命名漸層_64-5);
+      }
+
+      .cls-5 {
+        stroke: url(#_未命名漸層_64-2);
+      }
+
+      .cls-6 {
+        stroke: url(#_未命名漸層_64-3);
+      }
+
+      .cls-2 {
+        font-size: 41.12px;
+      }
+
+      .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-8 {
+        fill: url(#_未命名漸層_64);
+        mix-blend-mode: lighten;
+        opacity: .3;
+      }
+    </style>
+    <linearGradient id="_未命名漸層_64" data-name="未命名漸層 64" x1="116.58" y1="17.03" x2="116.58" y2="226.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b9e8e4"/>
+      <stop offset=".61" stop-color="aqua"/>
+      <stop offset="1" stop-color="#00a99d"/>
+    </linearGradient>
+    <linearGradient id="_未命名漸層_64-2" data-name="未命名漸層 64" x1="-865.8" y1="-1888.53" x2="-655.52" y2="-1888.53" gradientTransform="translate(-1771.94 882.25) rotate(90)" xlink:href="#_未命名漸層_64"/>
+    <linearGradient id="_未命名漸層_64-3" data-name="未命名漸層 64" x1="25.78" y1="95.45" x2="116.83" y2="95.45" xlink:href="#_未命名漸層_64"/>
+    <linearGradient id="_未命名漸層_64-4" data-name="未命名漸層 64" x1="116.33" y1="95.45" x2="207.39" y2="95.45" xlink:href="#_未命名漸層_64"/>
+    <linearGradient id="_未命名漸層_64-5" data-name="未命名漸層 64" x1="116.08" y1="173.87" x2="117.08" y2="173.87" xlink:href="#_未命名漸層_64"/>
+  </defs>
+  <g class="cls-7">
+    <g id="block_chain">
+      <text class="cls-1" transform="translate(42.31 122.35)"><tspan x="0" y="0">Block</tspan><tspan x="0" y="46.07">Chain</tspan></text>
+      <g>
+        <polygon class="cls-8" points="207.14 173.87 207.14 69.31 116.58 17.03 26.03 69.31 26.03 173.87 116.58 226.15 207.14 173.87"/>
+        <polygon class="cls-5" points="207.14 173.87 207.14 69.31 116.58 17.03 26.03 69.31 26.03 173.87 116.58 226.15 207.14 173.87"/>
+        <line class="cls-6" x1="26.03" y1="69.31" x2="116.58" y2="121.59"/>
+        <line class="cls-3" x1="207.14" y1="69.31" x2="116.58" y2="121.59"/>
+        <line class="cls-4" x1="116.58" y1="226.15" x2="116.58" y2="121.59"/>
+      </g>
+      <text class="cls-2" transform="translate(53.97 60.52)"><tspan x="0" y="0">區塊鏈</tspan></text>
+    </g>
+  </g>
+</svg>

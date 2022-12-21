@@ -13,3 +13,45 @@
     background: transparent;
     color: #fff;
 }
+.cube-map{
+    position: relative;
+}
+.ai-cube{
+    position: absolute;
+    max-width: 12%;
+    top: 23%;
+    left:18%
+}
+.big-data-cube {
+    position: absolute;
+    max-width: 12%;
+    top: 18%;
+    left: 46%;
+}
+.block-chain-cube {
+    position: absolute;
+    max-width: 12%;
+    top: 26%;
+    right: 16%;
+}
+.cloud-computing-cube{
+    position: absolute;
+    max-width: 17%;
+    bottom: 19%;
+    left: 38%;
+}
+.edge-computing-cube{
+    position: absolute;
+    max-width: 12%;
+    bottom: 29%;
+    left: 14%;
+}
+.five-g-cube{
+    position: absolute;
+    max-width: 16%;
+    bottom: 26%;
+    right: 19%;
+}
+.cube-hover:hover{
+    transform: scale(1.5);
+}
