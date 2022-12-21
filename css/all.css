@@ -1,6 +1,7 @@
-.body{
-    margin-top: 70px;
-    margin-bottom: 90px;
+.bg-img{
+    background-image: url(../../img/background_img.jpg); 
+    background-size: 100%;
+    background-repeat: repeat-y;
 }
 .link:hover{
     text-decoration: underline !important;
@@ -55,3 +56,50 @@
 .cube-hover:hover{
     transform: scale(1.5);
 }
+.cube-map-mobile{
+    position: relative;
+    height: 720px;
+}
+.ai-cube-m{
+    position: absolute;
+    max-width: 45%;
+    top: 8%;
+    left:28%
+}
+.big-data-cube-m {
+    position: absolute;
+    max-width: 45%;
+    top: 26%;
+    right: 1%
+}
+.block-chain-cube-m {
+    position: absolute;
+    max-width: 42%;
+    top: 26%;
+    left: 1%;
+}
+.cloud-computing-cube-m{
+    position: absolute;
+    max-width: 45%;
+    top: 50%;
+    left: 1%;
+}
+.edge-computing-cube-m{
+    position: absolute;
+    max-width: 45%;
+    top: 48%;
+    right: 1%;
+}
+.five-g-cube-m{
+    position: absolute;
+    max-width: 45%;
+    bottom: 10%;
+    left: 28%;
+}
+/* .background-line-m{
+    position: absolute;
+    top: 20%;
+    left: -300px;
+    transform:rotate(90deg);
+    width: 900px;    
+} */
