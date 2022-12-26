@@ -1,6 +1,9 @@
 ul{
     list-style-type: none;
 }
+.text-indent{
+    text-indent: -2.5rem;
+}
 .link:hover{
     text-decoration: underline !important;
 }
