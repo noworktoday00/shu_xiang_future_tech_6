@@ -20,7 +20,7 @@
     <title>六大科技小旅程</title>
   </head>
   <body style="background-image: url(../img/background_img.jpg);">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">六大科技小旅程</a>
         <button
@@ -51,7 +51,7 @@
         </div>
       </div>
     </nav>
-    <div class="container body">
+    <div class="container body my-5">
       <div class="row justify-content-center">
         <p class="text-center text-light">※ 點選圖片中的場景，會有意想不到的效果哦</p>
         <div class="col-md-8 align-self-center" style="position: relative" >
@@ -89,6 +89,9 @@
           <p class="text-white">※ 本轉載之影片內容均用於非商業用途。純粹為教育、非營利等合法目的，而影片之之著作權、所有權與智慧財產權，包括內容、文字、圖片、聲音、影像等均為台灣金融研訓院所有。</p>
         </div>
         </div>
+        <div class="row justify-content-center">
+          <a class="col-md-8 btn btn-outline-light" href="./resource/block_chain_resource.html" target="_blank">查看更多區塊鏈相關資源</a>
+      </div>
       <div class="row justify-content-center mt-3">
         <div class="col-md-8 border border-light rounded text-light">
           <form>
@@ -120,6 +123,7 @@
               </div>
             </div>
             <h4 class="my-3 text-center">跟我們分享一些您對區塊鏈的看法吧!</h4>
+            <p class="text-center">* 於網站上傳至少一個以乾淨白紙手寫之300字(含)以上閱讀心得照片</p>
             <div class="mx-5 mb-5">
               <div class="d-grid gap-2">
                 <a class="btn btn-outline-light loud-link-click" target="_blank" href="https://script.google.com/macros/s/AKfycbxv60Vb2TbPPzEVqSuQAyCnSUS6v-0h9pjeEQIROV6ICDuFSjiDsg6bQVCYxmEPYYTVyA/exec">進入心得上傳系統</a>
@@ -147,10 +151,10 @@
                     <option class="text-dark" value="報紙">紙本型式：報紙</option>
                     <option class="text-dark" value="有聲書">多媒體型式：有聲書（ 光碟、 mp3 等）</option>
                   </select>
-                  <h6>推薦讀物名稱</h6>
+                  <h6>推薦讀物名稱/作者/出版社</h6>
                   <div class="form-floating">
                     <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea" style="height: 20 px ;background: transparent; color: #fff"></textarea>
-                    <label for="floatingTextarea">讀物名稱是...</label>
+                    <label for="floatingTextarea">請輸入讀物名稱/作者/出版社</label>
                   </div>
               </div>
             </div>
@@ -176,159 +180,159 @@
         </div>
       </div>
     </div>
-    <footer class="fixed-bottom">
+    <footer>
       <div class="container-fluid bg-dark py-1 text-center text-light">
         <p class="mt-1">Copyright © 2022 財團法人書香文化教育基金會 - All Rights Reserved.</p>
       </div>
     </footer>
-    <!-- 活動辦法 modal -->
-    <div
-      class="modal fade"
-      id="eventModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content bg-dark text-light">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">本活動規範事項</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body mx-5">
-            <h4>一、 活動說明：</h4>
-            <ul style="list-style-type:none">
-              <li>
-                <h6>(一) 活動期間：依本會所定時間。</h6>
-              </li>
-              <li>
-                <h6>(二) 活動對象：全國大專院校(含)以上之公民。</h6>
-              </li>
-              <li>
-                <h6 >(三) 參加辦法：</h6>
-                <ol>
-                  <li >活動期間內，參加者連結活動網址完成本會調查，並登錄正確個人資料(真實姓名、手機號碼及電子郵件)，即可參加票選活動。每人限參加登錄1次，並獲得1次票選機會(僅限1次得獎)。</li>
-                  <li>本會將另以填寫人所留姓名及電子郵件資料寄發調查禮券及票選獎品，參加者請留下真實姓名及電子郵件信箱(僅供寄送禮券及票選獎品之用)。中獎人所提供個人資料，若有錯誤或遺漏，致使無法證明中獎身分或無法寄送禮券及票選獎品電子郵件者，一律以放棄得獎論。</li>
-                  <li>獎項詳細內容與規格皆以實物為準，得獎人不得要求更換獎項或轉讓。主辦單位保有隨時修改及終止本活動之權利，如有任何變更內容或詳細注意事項將公布於本網頁，恕不另行通知。</li>
-                </ol>
-              </li>
-            </ul>
+  <!-- 活動辦法 modal -->
+  <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">六大科技領域閱讀心得徵文 活動說明
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body mx-5">
+          <h4>壹、活動宗旨：</h4>
+          <p>數位科技如AI、區塊鍊及雲計算等快速發展，改變了人們的生活模式，導致未來生活必須與數位科技深度融合。
             <br>
-            <h4>二、 票選事項：</h4>
-            <ul style="list-style-type:none">
-              <li>
-                <p>本會將於本會網站公告中獎訊息，將依中獎人姓名及電子郵件寄送。</p>
-              </li>
+            書香文化教育基金會(以下簡稱本會)成立以來，一直以提昇教育水準與閱讀素養為宗旨，為配合數位科技的發展趨勢，特規劃「六大科技領域閱讀心得徵文活動」，希望透過科技閱讀，使高中職生與大專學生能對新興科技有基本的認識與瞭解，開啟學子們對數位科技的興趣，促使年輕一代對未來有更多想像，能善用數位科技，以創造更美好的生活。
+          </p>
+          <h4>貳、辦理單位： 財團法人書香文化教育基金會</h4>
+          <h4>參、 徵文對象：
+          </h4>
+            <ul>
+              <li>一、[高中職組]：全國高級中等學校學生。</li>
+              <li>二、[大專生組]：全國大專院校學生。</li>
             </ul>
-            <h4>三、 其他事項：</h4>
-            <ol style="list-style-type:none">
-              <li>
-                <h6>(一)獎項寄送以中獎人登錄之姓名及電子郵件為準，不另行確認，俾加速寄送行政流程。</h6>
-              </li>
-              <li>
-                <h6>(二)本活動如遇其他不可抗力事由，得順延之；本會有權取消、終止、更改或暫停本活動，並得解釋本活動相關事項；針對上開事宜，並將悉公布於本會網站，且依相關規定辦理。</h6>
-              </li>
-              <li>
-                <h6>(三)本會擁有保留獎項、活動時程的修改權利，以及中獎資格審核之最終權利。</h6>
-              </li>
-              <li>
-                <h6>(四)本活動各項規則已詳細載明於活動辦法中，參加者於參加本活動時，即同意接受所有活動規則之規範。如有違反本活動規則，本會得以取消參加資格並依法處理。</h6>
-              </li>
+            <h4>肆、	活動時程：</h4>
+            <ul>
+              <li>一、	公告及上傳截止日期：112年1月1日至2月28日止。</li>
+              <li>二、	得獎公告：112年4月10日</li>
             </ul>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              我了解了
-            </button>
-          </div>
+          <h4>伍、 活動網站：
+          </h4>
+            <ul>
+              <li>一、活動網站： <a href="https://sixtech.shu-xiang.org" target="_blank">https://sixtech.shu-xiang.org</a></li>
+              <li>二、本會網站： <a href="https://shu-xiang.org" target="_blank">https://shu-xiang.org</a></li>
+            </ul>
+          <h4>陸、心得撰寫</h4>
+          <ul>
+            <li>一、 以Google帳號於活動網站註冊，完成報名。</li>
+            <li>二、 於網站上傳至少一個以乾淨白紙手寫之300字(含)以上閱讀心得照片及推薦相關讀物(請敘明讀物名稱、作者、出版書局及出版時間)。</li>
+            <li>三、 活動期間可重複登入上傳心得及推薦讀物。</li>
+            <li>四、 閱讀心得須以手寫後拍照上傳圖片之方式進行，內容請尊重著作權，如有抄襲或違法情事發生，本會將取消其參賽資格，並依法處理。</li>
+            <li>五、 閱讀心得上傳及讀物推薦完畢後，請填寫個人資料(真實姓名、手機號碼及電子信箱)，以利後續發放獎品。</li>
+          </ul>
+          <h4>柒、評選辦法</h4>
+          <ul>
+            <li>一、評選委員：邀請具科技相關背景之產官學界專家擔任。</li>
+            <li>二、評選標準：
+              <ul>
+                <li>1. 內容正確性(25%)。</li>
+                <li>2. 文章易讀性(25%)。</li>
+                <li>3. 內容豐富性(25%)。</li>
+                <li>4. 領域相關性(25%)。</li>
+              </ul>
+            </li>
+          </ul>
+          <h4>捌、 獎勵辦法：</h4>
+          <ul>
+            <li>一、 參加獎：完成一個(含)以上閱讀心得300字(含)以上之照片及相關欄位
+              <ul>
+                <li>(一)[高中職組]：LINE POINTS 200點電子禮券乙份。</li>
+                <li>(二)[大專生組]：LINE POINTS 300點電子禮券乙份。</li>
+              </ul>
+            </li>
+            <li>二、 佳作：各組五名
+              <ul>
+                <li>(一)[高中職組]：LINE POINTS 500點電子禮券乙份及頒發獎狀乙紙。</li>
+                <li>(二)[大專生組]：LINE POINTS 1,000點電子禮券乙份及頒發獎狀乙紙。</li>
+              </ul>
+            </li>
+            <li>三、 優勝：各組三名
+              <ul>
+                <li>(一)[高中職組]：Ipad 10 wifi 64G。(市價約14,900)及頒發獎狀乙紙。</li>
+                <li>(二)[大專生組]：Ipad air wifi 64G。(市價約19,900)及頒發獎狀乙紙。</li>
+              </ul>
+            </li>
+            <li>四、 得獎者將以簡訊通知，並同步公告完整得獎名單於「書香文化教育基金會」網站。</li>
+            <li>五、 得獎人所提供之個人資料，若有錯誤或遺漏，致使無法證明得獎者身分或無法寄送禮券及票選獎品者，以放棄得獎論。</li>
+            <li>六、 獎項詳細內容與規格皆以實物為準，得獎人不得要求更換獎項或轉讓。主辦單位保有隨時修改及終止本活動之權利，如有任何變更內容將公布於本會網頁，恕不另行通知。</li>
+            <li>七、 參加者之個人資料僅供聯繫、寄送禮券及票選獎品之用，本會將妥善保護參加者的個人資訊。</li>
+          </ul>
+          <h4>玖、	其他事項：</h4>
+          <ul>
+            <li>一、	本活動各項規則已詳細載明於活動辦法中，參加者於參加活動時，即視同同意接受所有活動規則之規範。如有違反活動規則，本會得取消參加資格並依法處理。</li>
+            <li>二、	本會得視情況延長辦理時間，屆時活動時程及得獎名單公告亦將相應調整，如有任何異動以本會網站公布為準。</li>
+            <li>三、	請填寫真實個人資料，若因登錄資料不實或筆誤，致本會無法取得聯繫者，視同放棄本活動相關權利。</li>
+            <li>四、	參加者應尊重評選委員之評選結果，對評選結果不得有異議。</li>
+            <li>五、	本會擁有保留獎項、活動時程的修改權利，以及得獎資格審核之最終權利。</li>
+            <li>六、	得獎公告將揭露參賽者之全名，不另行遮蔽。</li>
+            <li>七、	本活動將遵守個人資料保護法及其他相關法令規範。</li>
+            <li>八、	本活動如遇其他不可抗力事由，得順延之；本會有權取消、終止、更改或暫停本活動；針對上開事宜，將公布於本會網站。</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            我了解了
+          </button>
         </div>
       </div>
     </div>
-    <!-- 推薦說明 modal -->
-    <div
-      class="modal fade"
-      id="recommendModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content bg-dark text-light">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">個人資料保護法相關聲明</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body mx-5">
-            <h5>一、蒐集個人資料單位：「財團法人書香教育文化基金會」(以下稱本會)。</h5>
-            <h5>二、蒐集目的：辦理有關六大新興技術調查之參考，及後續票選活動等相
-              關程序之聯繫使用。
-            </h5>
-            <h5>三、個人資料類別：包含姓名、聯絡電話及電子郵件等個人資料中之識別
-              類訊息。</h5>
-            <h5>四、個人資料利用之時間、地區、對象及方式：
-            </h5>
-            <ul style="list-style-type:none">
-              <li>（一）時間：調查及相關票選活動結束且獎項寄送等後續程序執行完畢。</li>
-              <li>（二）地區：僅供本會內部使用。</li>
-              <li>（三）對象：執行本活動之受調人員。</li>
-              <li>（四）方式：以自動化機器或其他非自動化之利用方式。</li>
-            </ul>
-            <h5>五、本會因辦理本活動而蒐集、處理或利用參與本活動者的個人資料(姓
-              名、電話及電子郵件等)時，皆以尊重參與本活動者的權益為基礎，且
-              遵守中華民國「個人資料保護法」規定。以上個人資料，僅供本會及
-              本會委託執行本活動時之必要相關人員使用。
-            </h5>
-            <h5>六、參與本活動者的個人資料僅會以電子檔或紙本形式於我國境內供本會
-              作為辦理本活動之處理或利用，本會不會將該資料提供其他第三人使
-              用。參加本活動並留下個人資料時，即視同瞭解上述相關內容，並同
-              意本會蒐集、處理及利用所提供的個人資料，作為票選、通知得獎者
-              以及獎品寄送之憑據。
-            </h5>
-            <h5>七、依據個資法第三條規定，本活動參與者瞭解，就其所提供之個人資料
-              得行使下列權利：
-            </h5>
-            <ul style="list-style-type:none">
-              <li>（一）得向本公司查詢或請求閱覽、請求製給複製本，惟本公司依法得酌收必要成本費用。
-              </li>
-              <li>（二）得向本公司請求補充或更正，惟依法本活動參與者應為適當之釋明。
-              </li>
-              <li>（三）得向本公司請求停止蒐集、處理或利用以及請求刪除，惟依法本
-                公司因執行職務或保存證據所必須者，得不依本活動參與者請
-                求為之。
-              </li>
-            </ul>
-            <h5>八、不提供個資所致之影響：參加者應確保所有填寫或提出的資料並非冒
-              用或盜用第三人之個資，如有不實或不正確之情事或第三方提出任何
-              法律或侵權訴訟，應由參加者本人全權負責；同時本會有權利取消該
-              參加者資格並將相關資料自本活動中移除。
-            </h5>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              我了解了
-            </button>
-          </div>
+  </div>
+  <!-- 個資保護法modal -->
+  <div class="modal fade" id="recommendModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">個人資料保護法相關聲明</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body mx-5">
+          <h5>參與本活動的學生，即同意書香文化教育基金會(以下簡稱本會)在個資保護法的規定下，運用資料，相關規定如下：</h5>
+          <h5>一、蒐集個人資料單位：「書香文化教育基金會」。</h5>
+          <h5>二、蒐集目的：辦理有關六大科技領域閱讀推廣暨心得徵文活動之參考及後續評選活動等相關程序之聯繫使用。
+          </h5>
+          <h5>三、個人資料類別：包含姓名、手機及電子信箱等個人資料中之識別類訊息。</h5>
+          <h5>四、個人資料利用之時間、地區、對象及方式：
+          </h5>
+          <ul style="list-style-type:none">
+            <li>（一）時間：調查及相關票選活動結束且獎項寄送等後續程序執行完畢。</li>
+            <li>（二）地區：僅供本會內部使用。</li>
+            <li>（三）對象：執行本活動之參與人員。</li>
+            <li>（四）方式：以自動化機器或其他非自動化之利用方式。</li>
+          </ul>
+          <h5>五、
+            本會因辦理本活動而蒐集、處理或利用參與本活動者的個人資料(姓名、手機及電子信箱等)時，皆以尊重參與本活動者的權益為基礎，且遵守中華民國「個人資料保護法」規定。以上個人資料，僅供本會及本會委託執行本活動時之必要相關人員使用。
+          </h5>
+          <h5>六、
+            參與本活動者的個人資料僅會以電子檔或紙本形式於我國境內供本會作為辦理本活動之處理或利用，本會不會將該資料提供其他第三人使用。參加本活動並留下個人資料時，即視同瞭解上述相關內容，並同意本會蒐集、處理及利用所提供的個人資料，作為票選、通知得獎者以及獎品寄送之憑據。
+          </h5>
+          <h5>七、 依據個資法第三條規定，本活動參與者瞭解就其所提供之個人資料得行使下列權利：
+          </h5>
+          <ul style="list-style-type:none">
+            <li>（一）得向本會查詢或請求閱覽、請求製給複製本，惟本會依法得酌收必要成本費用。
+            </li>
+            <li>（二）得向本會請求補充或更正，惟依法本活動參與者應為適當之釋明。
+            </li>
+            <li>（三）得向本會請求停止蒐集、處理或利用以及請求刪除，惟依法本會因執行職務或保存證據所必須者，得不依本活動參與者請求為之。
+            </li>
+          </ul>
+          <h5>八、
+            不提供個資所致之影響：參加者應確保所有填寫或提出的資料並非冒用或盜用第三人之個資，如有不實或不正確之情事或第三方提出任何法律或侵權訴訟，應由參加者本人全權負責；同時本會有權利取消該參加者資格並將相關資料自本活動中移除。
+          </h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            我了解了
+          </button>
         </div>
       </div>
     </div>
+  </div>
     <!-- 互動 modal -->
     <!-- doctorModal -->
     <div class="modal fade" id="doctorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
